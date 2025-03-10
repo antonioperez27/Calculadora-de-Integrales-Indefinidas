@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Definir tipos de nodos
+// Definir tipos #####
 enum NodeType
 {
     NUMBER,
@@ -33,13 +33,13 @@ struct ExpressionNode
     }
 };
 
-// Función para verificar si un carácter es un operador
+// Verificar si un carácter es un operador
 bool isOperator(char c)
 {
     return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
 }
 
-// Función para obtener la precedencia de los operadores
+// Precedencia de los operadores
 int precedence(char op)
 {
     if (op == '+' || op == '-')
@@ -51,19 +51,19 @@ int precedence(char op)
     return 0;
 }
 
-// Función para verificar si una cadena es una función matemática
+// Verificar si la cadena es una función matemática
 bool isFunction(const string& str)
 {
     return str == "sin" || str == "cos" || str == "tan" || str == "ln" || str == "sqrt";
 }
 
-// Función para verificar si un carácter es una letra (una variable)
+// Verificar si un carácter es una letra (una variable)
 bool isVariable(char c)
 {
     return isalpha(c) && !isdigit(c); // solo letras, excluyendo números
 }
 
-// Función para crear un árbol de expresión a partir de una cadena en notación infija
+// Crear un árbol de expresión a partir de una cadena en notación infija
 ExpressionNode* parseExpression(const string& expression, size_t& i)
 {
     stack<ExpressionNode*> values;
@@ -118,7 +118,7 @@ ExpressionNode* parseExpression(const string& expression, size_t& i)
                 num += expression[i++];
             }
 
-            // Verificamos si es seguido de una variable o paréntesis, lo que indica multiplicación implícita
+            // Verificamos si es seguido de una variable o paréntesis
             if (i < expression.size() && (isVariable(expression[i]) || expression[i] == '('))
             {
                 string var_or_paren(1, expression[i]);
@@ -181,7 +181,7 @@ ExpressionNode* parseExpression(const string& expression, size_t& i)
     return values.empty() ? nullptr : values.top();
 }
 
-// Función para convertir el árbol de expresión a formato Maxima
+// Convertir el árbol de expresión a formato Maxima
 string toMaximaString(ExpressionNode* node, bool isParent = false)
 {
     if (!node)
@@ -214,7 +214,7 @@ string toMaximaString(ExpressionNode* node, bool isParent = false)
     return "";
 }
 
-// Función principal para convertir una expresión infija al formato de Maxima
+// Convertir una expresión infija al formato de Maxima
 string convertToMaximaFormat(const string& expression)
 {
     size_t i = 0;

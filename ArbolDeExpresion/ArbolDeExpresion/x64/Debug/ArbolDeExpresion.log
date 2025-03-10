@@ -1,0 +1,103 @@
+﻿  ArbolDeExpresion.cpp
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(13,1): error C2011: 'NodeType': nueva definición del tipo 'enum'
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(11,6):
+  vea la declaración de 'NodeType'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(22,1): error C2011: 'ExpressionNode': nueva definición del tipo 'struct'
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(37,6): error C2084: la función 'bool isOperator(char)' ya tiene un cuerpo
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(35,6):
+  vea la definición anterior de 'isOperator'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(99,66): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(100,21): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(110,55): error C2065: 'VARIABLE': identificador no declarado
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(110,47): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(127,47): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(131,47): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(144,60): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(145,17): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(146,17): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(175,52): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(176,9): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(177,9): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(190,9): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(192,16): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(192,50): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(194,14): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(196,38): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(197,39): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(199,36): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(209,14): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(209,38): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(209,52): error C2065: 'VARIABLE': identificador no declarado
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(211,16): error C2027: uso del tipo 'ExpressionNode' sin definir
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  
+C:\Users\51993\Desktop\C++POO\poo\ArbolDeExpresion\ArbolDeExpresion.cpp(227,5): warning C4150: eliminación de puntero a tipo 'ExpressionNode' incompleto; no se ha llamado a un destructor
+  C:\Users\51993\Desktop\C++POO\poo\ValidarExpresiones\ValidarExpresiones.cpp(19,8):
+  vea la declaración de 'ExpressionNode'
+  

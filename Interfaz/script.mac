@@ -1,0 +1,3 @@
+display2d:false;
+string(integrate(x, x));
+quit();

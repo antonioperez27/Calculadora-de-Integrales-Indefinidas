@@ -1,0 +1,8 @@
+batch("script.mac")
+
+read and interpret C:/Users/51993/Desktop/C++POO/poo/Interfaz/script.mac
+display2d:false
+false
+string(integrate(x,x))
+"x^2/2"
+quit()

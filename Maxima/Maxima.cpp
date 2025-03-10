@@ -7,7 +7,7 @@
 void writeMaximaScript(const std::string& expression)
 {
     std::ofstream file("script.mac");
-    file << "display2d:false;\n";                            // Evita salida gráfica
+    file << "display2d:false;\n";                            // Formato no grafico (1/2) 
     file << "string(integrate(" << expression << ", x));\n"; // Genera salida como texto simple
     file << "quit();\n";                                     // Termina Maxima
     file.close();
